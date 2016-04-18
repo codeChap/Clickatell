@@ -45,6 +45,6 @@ class Http
   public function execute()
   {
     // Send to api
-    print file_get_contents($this->endpoint);
+    return file_get_contents($this->endpoint);
   }
 }
