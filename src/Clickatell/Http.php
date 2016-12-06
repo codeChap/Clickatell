@@ -13,7 +13,7 @@ class Http
   /**
    * Client object to work with
    */
-  protected $baseUrl = "https://api.clickatell.com/http/sendmsg?";
+  protected $baseUrl = "http://api.clickatell.com/http/sendmsg?";
 
   /**
    * Endpoint of url
